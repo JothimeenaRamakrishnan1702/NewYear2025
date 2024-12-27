@@ -146,22 +146,27 @@ body {
 
 @keyframes new_animation {
   0% {
-    right: -100px;
+    right: -10vw;
+    /* Start off the screen */
   }
 
   40% {
-    right: 380px;
+    right: 25vw;
+    /* Move to 40% of the screen width */
   }
 
   90% {
-    right: 380px;
+    right: 25vw;
+    /* Pause briefly at this position */
   }
 
   100% {
-    right: 490px;
+    right: 35vw;
+    /* End at 50% of the screen width */
     color: yellow;
   }
 }
+
 
 .balloon {
   width: 100px;
